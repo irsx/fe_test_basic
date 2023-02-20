@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Irsx Front End Basic Test (Reactjs)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deskripsi
+Repository ini berisi serangkaian pertanyaan wawancara teknis yang dirancang untuk menilai kemampuan pelamar dalam Pengembangan Frontend. Melalui pertanyaan-pertanyaan ini, kami bertujuan untuk memperoleh gambaran yang jelas mengenai kemampuan dan keahlian kandidat dalam Pengembangan Frontend.
 
-## Available Scripts
+## Prasyarat
+Sebelum memulai tugas ini, pastikan Anda telah memenuhi prasyarat sebagai berikut:
 
-In the project directory, you can run:
+- Sudah memiliki pengetahuan dasar mengenai frontend development
+- Sudah mempunyai perangkat komputer yang memenuhi spesifikasi untuk menjalankan aplikasi React
+- Sudah menginstal Node.js dan NPM pada komputer Anda
 
-### `npm start`
+## Instruksi
+- Lakukan clone repository ini ke komputer Anda
+- Jawab semua pertanyaan yang ada pada file `README.md`
+- Simpan perubahan pada file `App.js` dan `README.md` yang sudah Anda buat
+- Kirim file `App.js` dan `README.md`  (dalam bentuk zip) yang sudah Anda jawab melalui email ke galang@hayumarket.com dengan Subject "TEST_FE_[NAMA]"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pastikan Anda telah membaca dengan cermat instruksi dan pertanyaan yang ada sebelum memulai tugas.
+ 
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Question 1
+Apa itu React Hook? Jelaskan masing-masing contoh penggunaannya yang pernah kamu pakai.
+### Answer 1
+...
+### Question 2
+Apa itu lifecycle methods di React? Jelaskan urutan lifecycle methods.
+### Answer 2
+...
+### Question 3
+Pernahkah kamu menggunakan State Management tool di react? Ceritakan mengapa kamu memakai State Management tool yang kamu pakai?
+### Answer 3
+...
+### Question 4
+Tolong tulis pengetahuanmu tentang Search Engine Optimization (SEO)?
+### Answer 4
+...
+### Question 5
+Tolong tulis pengetahuanmu tentang Progresive Web Application (PWA)?
+### Answer 5
+...
+### Question 6
+Ada beberapa tehnik untuk membangun dan mendeliver sebuah web app, salah satu yang biasa digunakan adalah Client Side Rendering (CSR). Apakah kamu pernah menggunakan tehnik lainnya? Jika pernah berikan penjelasan dan kelebihan dari tehnik yang pernah kamu pakai.
+### Answer 6
+...
+### Question 7
+Pernahkan kamu memakai tehnik Lazy Load? Jika pernah apa kelebihan dalam menggunakan tehnik Lazy Load?
+### Answer 7
+...
+### Question 8
+Tolong tulis pengetahuanmu tentang Service Worker?
+### Answer 8
+...
+### Question 9
+Tolong tulis pengetahuanmu tentang Event Driven?
+### Answer 9
+...
+### Task 1
+Sebelumnya jalankan Applikasi React diatas. Dalam page `/` terdapat button `increment` pada `ChildComponent` yang bertujuan untuk menambah Total count pada `ParentComponent`. 
 
-### `npm test`
+Ketika button `increment` di-klik terjadi delay selama 2 detik dikarenakan `ChildComponent` terdapat "heavy-process" (divisualisasikan menggunakan function `sleep()`).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Kita dapat mengimprove kode ini agar `ChildComponent` tidak melakukan re-render sehingga "heavy-process" tersebut hanya dilakukan sekali.
 
-### `npm run build`
+Improve kode tersebut agar ketika tombol `increment` ditekan tidak terjadi re-render pada `ChildComponent`. Karena ketika `ChildComponent` melakukan re-render maka "heavy-process" akan di jalankan lagi.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hint: Lihat `Console` pada browser untuk visualisai re-render, React.memo dan useCallback
