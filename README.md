@@ -14,7 +14,7 @@ Sebelum memulai tugas ini, pastikan Anda telah memenuhi prasyarat sebagai beriku
 - Lakukan clone repository ini ke komputer Anda
 - Jawab semua pertanyaan yang ada pada file `README.md`
 - Simpan perubahan pada file `App.js` dan `README.md` yang sudah Anda buat
-- Kirim file `App.js` dan `README.md`  (dalam bentuk zip) yang sudah Anda jawab melalui email ke galang@hayumarket.com dengan Subject "TEST_FE_[NAMA]"
+- Kirim file `App.js` dan `README.md`  (dalam bentuk zip) yang sudah Anda jawab melalui email ke miftah@aviana.co.id dengan Subject "TEST_FE_[NAMA]"
 
 Pastikan Anda telah membaca dengan cermat instruksi dan pertanyaan yang ada sebelum memulai tugas.
  
