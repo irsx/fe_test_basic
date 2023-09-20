@@ -66,3 +66,18 @@ Kita dapat mengimprove kode ini agar `ChildComponent` tidak melakukan re-render 
 Improve kode tersebut agar ketika tombol `increment` ditekan tidak terjadi re-render pada `ChildComponent`. Karena ketika `ChildComponent` melakukan re-render maka "heavy-process" akan di jalankan lagi.
 
 Hint: Lihat `Console` pada browser untuk visualisai re-render, React.memo dan useCallback
+
+### Task 2
+Anda diberikan sebuah string yang berisi ekspresi matematika sebagai berikut: '(2x5)+10/5x(9-10)' [Result = 8]. Tugas Anda adalah mengevaluasi ekspresi tersebut.
+
+Catatan: Anda tidak boleh menggunakan fungsi eval() atau fungsi sejenis yang ada dalam bahasa pemrograman apapun. Anda harus menyelesaikan tugas ini dengan menggunakan pemrograman yang kreatif.
+
+```javascript
+function evaluateExpression(expression) {
+  // Langkah-langkah penyelesaian tugas di sini
+}
+
+const expression = '(2x5)+10/5x(9-10)';
+const result = evaluateExpression(expression);
+console.log(result); // 8
+```
